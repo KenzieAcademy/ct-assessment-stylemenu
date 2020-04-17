@@ -12,8 +12,12 @@ nav {
 #main {
     width: 900px;
     margin: 10px auto;
-}
+}   
+body {
+    font-family: 'Oswald', sans-serif;
+    font: size 13px;;
 
+}
 /* 
     Add a CSS ruleset targeting the restaurant name to accomplish the following:
         - Use the 'Bungee Inline' font 
@@ -24,16 +28,31 @@ nav {
 #menu {
     columns: 420px 2;
     column-gap: 60px;
+    text-transform: uppercase;
 }
+
+
 
 section {
     margin-bottom: 20px;
     padding: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
+h1{
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 46px;
+    font-weight: lighter;
+
+}
 h2 {
     margin-top: 0;
+    text-align: center;
 }
+
 
 /* 
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
@@ -48,6 +67,11 @@ h2 {
 
 dt {
     display: inline;
+    font-weight: bolder;
+    font-size: 16px;
+}
+dt::after{
+    content: ",";
 }
 
 /* 
@@ -71,11 +95,14 @@ dd::after {
     float: right;
     padding: 0 0 35px 20px;
 }
+footer{
+    text-align: right;
+}
 
 /* 
     Add a CSS ruleset targeting the footer to accomplish the following:
     - right align the text in the footer
-*/
+*
 
 /* 
     Add a CSS ruleset targeting the starters and desserts sections to accomplish the following:
