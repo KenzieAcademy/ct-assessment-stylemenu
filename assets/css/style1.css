@@ -13,6 +13,9 @@ nav {
 #main {
     width: 900px;
     margin: 10px auto;
+    font-family:'Lato';
+    font-size: 18px;
+    background-image: "map-bg.jpg";
 }
 
 /* 
@@ -21,6 +24,10 @@ nav {
         - set the font size to 45px 
         - set the font color to #5d4037
 */
+nav {font-family:'Supermercado One';
+    font-size: 45px;
+    color: #5d4037;    
+}
 
 /* 
     Update the following ruleset (#menu) to accomplish the following:
@@ -29,6 +36,8 @@ nav {
 
 #menu {
     columns: 400px 2;
+    column-rule: dashed 2px;
+    color: rosybrown;
     column-gap: 100px;
 }
 
@@ -45,6 +54,10 @@ h2 {
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
+:target-text {
+    font-variant: small;
+    color: #6d4c41;
+}
 
 /* 
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
@@ -68,6 +81,8 @@ dd {
 */
 
 .price {
+    font-size: large;
+    color: firebrick;
     order: 2;
     padding-left: 10px;
 }
@@ -80,3 +95,21 @@ address {
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
+p {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rosybrown;
+
+} 
+    Add a CSS ruleset targeting the name of each menu item to accomplish the following:
+        - Set the font size to 20px
+        - Make the font bold
+
+*/
+:target {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+
