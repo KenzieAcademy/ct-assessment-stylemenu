@@ -4,7 +4,7 @@
     - Use the 'Lato' font family at 18px throughout the body of the document
     - cover background with the "map-bg.jpg" image in the images directory. 
 */
-#main {
+body {
     width: 900px;
     margin: 10px auto;
     font-family:'Lato';
@@ -19,7 +19,7 @@
         - set the font size to 45px 
         - set the font color to #5d4037
 */
-nav {
+header {
     font-family:'Supermercado One';
     font-size: 45px;
     color: #5d4037;    
@@ -50,7 +50,7 @@ h2 {
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
-:target header {
+ header {
 
    font-variant: small-caps;
    color: #6d4c41;
@@ -61,7 +61,7 @@ h2 {
         - Set the font size to 20px
         - Make the font bold
 */
-:target menuitem {
+menuitem {
 
     font-size: 20px;
     font: bold;
@@ -97,19 +97,18 @@ address {
     Add a CSS ruleset targeting the footer to accomplish the following:
         - Draw a 2px dashed rosybrown border
 */
-:target footer {
+footer {
 
     border-style: dashed;
     border-width: 2px;
     border-color: rosybrown;
-
 } 
+/*
     Add a CSS ruleset targeting the name of each menu item to accomplish the following:
         - Set the font size to 20px
         - Make the font bold
-
 */
-:target menuitem {
+menuitem {
     font-size: 20px;
     font: bold;
 }
