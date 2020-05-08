@@ -10,7 +10,7 @@ body {
     font-family:'Lato';
     font-size: 18px;
     background-image: url(../images/map-bg.jpg);
-    
+    background-size: cover;
 }
 
 /* 
@@ -19,7 +19,7 @@ body {
         - set the font size to 45px 
         - set the font color to #5d4037
 */
-header {
+h1 {
     font-family:'Supermercado One';
     font-size: 45px;
     color: #5d4037;    
@@ -32,7 +32,7 @@ header {
 
 #menu {
     columns: 200px 2;
-    column-rule: dashed 2px;
+    column-rule: 2px dashed rosybrown;
     color: black;
     column-gap: 100px;
 }
@@ -50,7 +50,7 @@ h2 {
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
- header {
+ h2 {
 
    font-variant: small-caps;
    color: #6d4c41;
@@ -61,7 +61,7 @@ h2 {
         - Set the font size to 20px
         - Make the font bold
 */
-menuitem {
+dt {
 
     font-size: 20px;
     font: bold;
@@ -108,7 +108,7 @@ footer {
         - Set the font size to 20px
         - Make the font bold
 */
-menuitem {
+dt {
     font-size: 20px;
     font: bold;
 }
